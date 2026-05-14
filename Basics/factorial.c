@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Program to find factorial
 int main() {
     int n;
     printf("Enter the no. ");

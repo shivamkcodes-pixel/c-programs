@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-void swap(int *a, int *b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+void swap(int *a, int *b)
 
 int main() {
     int x = 10, y = 20;
@@ -14,4 +10,10 @@ int main() {
     printf("%d %d", x, y);
 
     return 0;
+}
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Program for Odd & Even No. Check
 int main() {
    int n;
    printf("Enter the Number: ");
